@@ -23,7 +23,7 @@ const Cart = (props) => {
   return (
     <div className='cart'>
       <h1>Order Summary</h1>
-      <h3>Selected items: {cart.length}</h3>
+      <h3>Selected items: {quantity}</h3>
       <p>Total Price: $ {totalPrice}</p>
       <p>Total Shipping Charge: $ {totalShipping}</p>
       <p>Tax: $ {tax.toFixed(2)}</p>
